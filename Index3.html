@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 780px;
+            height:800px;
+            background-color:#660033;
+        }
+
+        #footer {
+            margin: 0 auto;
+            width: 100%;
+            height: 40px;
+            background-color: #660033;
+        }
+
+        #top {
+            margin: 0 auto;
+            width: 100%;
+            height: 40px;
+            background-color: #660033;
+        }
+
+        #menu {
+            margin: 0 auto;
+            width: 100%;
+            height: 35px;
+            background-color: #ff6a00;
+            color: white;
+            clear: left;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: -30px;
+        }
+
+            ul li {
+                float: left;
+                margin-top: 5px;
+                padding-right: 10px;
+            }
+
+                ul li a {
+                    text-decoration: none;
+                    border-right: 2px solid white;
+                    padding-right: 9px;
+                    font-family: Arial;
+                    font-size: 10pt;
+                    font-weight: bold;
+                    color: white;
+                }
+        #content {
+            margin: 0 auto;
+            width: 100%;
+            height: 580px;
+            background-color: #660033;
+            display: flex;
+        }
+
+        #ct_left {
+            margin: 0 auto;
+            width: 23%;
+            height: 100px;
+        }
+
+        #ct_middle {
+            margin: 0 auto;
+            width: 77%;
+            height: 340px;
+            background-color: #660033;
+            color: white;
+            font-size: 10pt;
+        }
+
+        .search {
+            margin-top: 10px;
+        }
+
+            .search input {
+                width: 140px;
+                padding: 5px;
+            }
+
+        .login {
+            margin-top: 10px;
+        }
+
+            .login input {
+                width: 140px;
+                margin-bottom: 5px;
+                padding: 5px;
+            }
+        .product{
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+            .product img{
+                float:left;
+                width: 100px;
+                margin-right: 20px;
+            }
+            .product p{
+                font-size: 13px;
+                line-height: 1.5;
+                text-align: justify;
+                margin-top: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="top">
+            <div>
+                <img style="float:left;" src="HinhAnh/logo.jpg" />
+                <img style="float:left;" src="HinhAnh/my_pham.gif" />
+                <img style="float:left;" src="HinhAnh/banner.gif" />
+            </div>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="#home">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="#contact">Giới thiệu</a>
+                </li>
+                <li>
+                    <a href="#">Sản phẩm</a>
+                </li>
+                <li>
+                    <a href="#">Hỏi đáp</a>
+                </li>
+                <li>
+                    <a href="#">Tư vấn</a>
+                </li>
+                <li>
+                    <a href="#">Giỏ hàng</a>
+                </li>
+                <li>
+                    <a href="#about">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="ct_left">
+                <div>
+                    <img style="float:left;margin-left:10px" src="HinhAnh/trang_diem.gif" />
+                    <img style="float:left;margin-left:10px" src="HinhAnh/duong_da.gif" />
+                    <img style="float:left;margin-left:10px" src="HinhAnh/nuoc_hoa.gif" />
+                    <img style="float:left;margin-left:10px" src="HinhAnh/duong_toc.gif" />
+                    <img style="float:left;margin-left:10px" src="HinhAnh/duong_the.gif" />
+                    <img style="float:left;margin-left:10px" src="HinhAnh/nam_gioi.gif" />
+                    <img style="float:left;margin-left:10px" src="HinhAnh/tuongtrung.jpg" />
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Tìm kiếm" />
+                    <img src="HinhAnh/nut_tim_kiem.gif" />
+
+                </div>
+                <div class="login">
+                    <p style="color:white">Đăng nhập</p>
+                    <input type="text" placeholder="Tên đăng nhập" />
+                    <p style="color:white">Mật khẩu</p>
+                    <input type="password" placeholder="Mật khẩu" />
+                    <input type="button" value="Đăng nhập" />
+
+                </div>
+            </div>
+            <div id="ct_middle">
+                <h3>
+                    SẢN PHẨM
+                </h3>
+                <div class="product">
+                    <img  src="HinhAnh/sp1.jpg" />
+                    <p>
+                        <b>Các bộ dưỡng da cao cấp</b></br>
+                        Nhờ thành phần chiết xuất từ thiên nhiên, sử dụng những bộ</br>
+                        dưỡng da cao cấp bằng phương pháp dưỡng da tối ưu giúp</br>
+                        giảm sự lão hoá và bảo vệ da.
+                    </p>
+
+                </div>
+                <div class="product">
+                    <img src="HinhAnh/sp2.jpg" />
+                    <p>
+                        <b>
+                            Các loại mặt nạ </br>
+                        </b>
+                        Khi sử dụng các bộ dưỡng da nên dùng kèm theo một loại mặt nạ</br>
+                        phù hợp bởi mặt na se giúp làm sạch sâu giúp bổ sung</br>
+                        tinh chất nuôi dưỡng da
+                        giúp làm tăng tính đàn hồi săn chắc cho da
+                    </p>
+
+                </div>
+                <div class="product">
+                    <img src="HinhAnh/sp3.jpg" />
+                    <p>
+                        <b>Các loại mỹ phẩm cao cấp đặc trị</b></br>
+                        Điều mà mọi người mong muốn là được trang điểm đẹp song</br>
+                        trang điểm luôn phải được ý thức là có 2 mục đích: làm đẹp và,</br>
+                        bảo vệ da.
+                    </p>
+                </div>
+                <div class="product">
+                    <img src="HinhAnh/sp4.jpg" />
+                    <p>
+                        <b>AH 22.000(Essence dạng đặc trị):</b></br>
+                        Là tinh dầu thực vật dạng đặc trị với thành phần dinh dưỡng ưu</br>
+                        tú là sản phẩm có khả năng ưu tú nuôi dưỡng tế bào da , tác </br>
+                        động mạnh đến quá trình cấu tạo tế bào da, xoá đi các vết thâm, giảm
+                        sự phát sinh</br>
+                        nếp nhăn, xoá đi các vết thâm và giảm hiện tượng phát sinh nám trên da
+                    </p>
+                </div>
+</body>
+</html>
